@@ -5,7 +5,12 @@ const winston = require('winston');                                            /
 const add = (num1, num2) => { return num1 + num2; }                            //  This line defines add function  
 const sub = (num1, num2) => { return num1 - num2; }                           //  This line defines subtract function
 const multi = (num1, num2) => { return num1 * num2; }                        //  This line defines multiplication function
-const div = (num1, num2) => { return num1 / num2; }                         //  This line defines division function
+const div = (num1, num2) => {                                                    // This line defines division fuction
+    if (num2 === 0) {
+        throw new Error("Division by zero error");
+    }
+    return num1 / num2;
+}                         
 
 const logger = winston.createLogger({                                                   // This line creates the winston logger instance
     level: 'info',                                                                       // This line set log level to info
