@@ -23,3 +23,9 @@
 {"level":"info","message":"Parameters 23 and 34 received for subtraction","service":"calculator-microservice"}
 {"level":"info","message":"Parameters 2 and 34 received for multiplication","service":"calculator-microservice"}
 {"level":"info","message":"Parameters 10 and 2 received for division","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 23 and 34 received for addition","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 23 and 34 received for addition","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 23 and 34 received for addition","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 35 and 34 received for subtraction","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 35 and 34 received for multiplication","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 35 and 5 received for division","service":"calculator-microservice"}
